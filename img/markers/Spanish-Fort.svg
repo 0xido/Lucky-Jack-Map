@@ -1,0 +1,24 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="118" cy="118" r="115.5" stroke="#FABD00" stroke-width="5"/>
+<mask id="mask0_424_191" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="226" height="226">
+<circle cx="118" cy="118" r="113" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_424_191)">
+<mask id="mask1_424_191" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-12" y="-7" width="130" height="248">
+<rect x="-12" y="-7" width="130" height="248" fill="#AD1519"/>
+</mask>
+<g mask="url(#mask1_424_191)">
+<rect x="-12" y="-7" width="130" height="253" fill="#AD1519"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M164.674 101.471L181.14 161.488L188 161.487V173.798H48V161.487H53.5548L70.6357 101.471H69.5375V95.3148H80.307V101.471H86.4612V95.3148H98.7686V101.471H104.923V95.3148H117.23V63H120.307V95.3156H131.076V101.471H137.231V95.3156H149.538V101.471H152.615V95.3156H164.922V101.471H164.674ZM89.5395 126.094H92.6162V113.783H89.5395V126.094ZM117.232 126.094H120.309V113.783H117.232V126.094ZM140.309 126.094H143.386V113.783H140.309V126.094Z" fill="#FABD00"/>
+<path d="M116.712 77.6012V63.8589L93.5215 75.6982L116.712 77.6012Z" fill="#FABD00"/>
+</g>
+<mask id="mask2_424_191" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="118" y="-37" width="139" height="311">
+<rect x="118" y="-37" width="139" height="311" fill="white"/>
+</mask>
+<g mask="url(#mask2_424_191)">
+<rect x="118" y="-37" width="139" height="311" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M164.674 101.471L181.14 161.488L188 161.487V173.798H48V161.487H53.5548L70.6357 101.471H69.5375V95.3148H80.307V101.471H86.4612V95.3148H98.7686V101.471H104.923V95.3148H117.23V63H120.307V95.3156H131.076V101.471H137.231V95.3156H149.538V101.471H152.615V95.3156H164.922V101.471H164.674ZM89.5395 126.094H92.6162V113.783H89.5395V126.094ZM117.232 126.094H120.309V113.783H117.232V126.094ZM140.309 126.094H143.386V113.783H140.309V126.094Z" fill="#AD1519"/>
+<path d="M116.712 77.6012V63.8589L93.5215 75.6982L116.712 77.6012Z" fill="#AD1519"/>
+</g>
+</g>
+</svg>
