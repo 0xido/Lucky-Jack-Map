@@ -11,7 +11,7 @@ let map = L.map('map', {
     crs: L.CRS.Simple,
     attributionControl: false,
     zoom: 1,
-    minZoom: 0,
+    minZoom: 1,
     maxZoom: 3,
     zoomControl: false,
 });
