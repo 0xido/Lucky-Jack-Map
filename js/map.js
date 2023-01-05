@@ -113,13 +113,20 @@ function setMarker() {
                     maxWidth: '500', 
                     title: marker.title
                 })
-                .bindPopup("<div class='tooltip-image-wrapper' style='background: url(\"/img/popups/min/" + marker.image + "\")'></div><div class='tooltip-content'><header class='tooltip-header'><h2>" + marker.title + "</h2><div class='tooltip-tag'>" + marker.type + "</div>" + confirmed + "</header><div><div class='tooltip-description'>" + marker.description + "</div><div class='tooltip-quote'>" + marker.quote + "</div><div class='tooltip-seenin'><strong>Appears in the book:</strong><br> "+ marker.books + "</div>"+ readMore + ""+ dataProvided + "</div></div>")
+                .bindPopup("<div class='tooltip-image-wrapper' style='background: url(\"/img/popups/min/" + marker.image + "\")'><div class='tooltip-resize'><a role='button' target='_blank' aria-label='Open higher resolution picture' href='/img/popups/" + marker.image + "'><img width=30 alt='' src='../img/icons/Expand-image.svg' /></a></div></div><div class='tooltip-content'><header class='tooltip-header'><h2>" + marker.title + "</h2><div class='tooltip-tag'>" + marker.type + "</div>" + confirmed + "</header><div><div class='tooltip-description'>" + marker.description + "</div><div class='tooltip-quote'>" + marker.quote + "</div><div class='tooltip-seenin'><strong>Appears in the book:</strong><br> "+ marker.books + "</div>"+ readMore + ""+ dataProvided + "</div></div>")
                 .addTo(map));
     });
 }
 
 // Set markers on the map 
 setMarker();
+
+
+
+
+
+
+
 
 
 
@@ -203,6 +210,8 @@ emptyElements.forEach(element => {
   element.style.display = "none";
 });
   
+
+
 
 // Dev, show paths on console when drawing on the map
 // Hace falta pulsar en finalizar la linea para verlo en console

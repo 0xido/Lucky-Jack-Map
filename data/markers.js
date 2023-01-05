@@ -191,7 +191,7 @@ const DATA_MARKERS = {
             "title": "Admiralty",
             "coordinates": [597.62, 680.50],
             "type": "Admiralty",
-            "image": "City3-London-min.png",
+            "image": "City3-London.png",
             "books": [
                 "The Mauritius Command",
                 "The Surgeon´s Mate",
@@ -210,7 +210,7 @@ const DATA_MARKERS = {
             "title": "Madrid, 18th Century",
             "coordinates": [544.93, 666.25],
             "type": "Spain",
-            "image": "City2-Madrid-min.png",
+            "image": "City2-Madrid.png",
             "books": [
                 "Master & Commander",
             ],
@@ -238,7 +238,7 @@ const DATA_MARKERS = {
             "title": "Torre del Almirante, Algeciras",
             "coordinates": [528.43, 659.62],
             "type": "Spanish fort",
-            "image": "Fort1-min.png",
+            "image": "Fort1.png",
             "books": [
                 "Master & Commander",
             ],
@@ -256,7 +256,7 @@ const DATA_MARKERS = {
             "title": "Paris, 18th Century",
             "coordinates": [585.00, 688.31],
             "type": "France",
-            "image": "City1-Paris-min.png",
+            "image": "City1-Paris.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -287,7 +287,7 @@ const DATA_MARKERS = {
             "title": "Portsmouth",
             "coordinates": [593.43, 675.31],
             "type": "Port",
-            "image": "Port1-min.png",
+            "image": "Port1.png",
             "books": [
                 "The Mauritius Command",
                 "Desolation Island",
@@ -303,7 +303,7 @@ const DATA_MARKERS = {
             "title": "Plymouth",
             "coordinates": [590.75, 664.50],
             "type": "Port",
-            "image": "Port2-min.png",
+            "image": "Port2.png",
             "books": [
                 "HMS Surprise",
                 "The Mauritius Command",
@@ -318,7 +318,7 @@ const DATA_MARKERS = {
             "title": "Sheerness",
             "coordinates": [596.56, 685.12],
             "type": "Port",
-            "image": "Port3-min.png",
+            "image": "Port3.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -332,7 +332,7 @@ const DATA_MARKERS = {
             "title": "Gibraltar",
             "coordinates": [528.18, 660.75],
             "type": "Port",
-            "image": "Port4-min.png",
+            "image": "Port4.png",
             "books": [
                 "Master & Commander",
                 "HMS Surprise",
@@ -347,7 +347,7 @@ const DATA_MARKERS = {
             "title": "Mahón",
             "coordinates": [542.06, 699.50],
             "type": "Port",
-            "image": "Port5-min.png",
+            "image": "Port5.png",
             "books": [
                 "Master & Commander",
             ],
@@ -361,7 +361,7 @@ const DATA_MARKERS = {
             "title": "Cagliari",
             "coordinates": [541.50, 716.12],
             "type": "Port",
-            "image": "Port3-min.png",
+            "image": "Port3.png",
             "books": [
                 "Master & Commander",
             ],
@@ -375,7 +375,7 @@ const DATA_MARKERS = {
             "title": "La Valetta",
             "coordinates": [527.37, 737.68],
             "type": "Port",
-            "image": "Port1-min.png",
+            "image": "Port1.png",
             "books": [
                 "Master & Commander",
             ],
@@ -389,7 +389,7 @@ const DATA_MARKERS = {
             "title": "Madeira",
             "coordinates": [512.87, 618.56],
             "type": "Port",
-            "image": "Port5-min.png",
+            "image": "Port5.png",
             "books": [
                 "HMS Surprise",
             ],
@@ -403,7 +403,7 @@ const DATA_MARKERS = {
             "title": "Cape Town",
             "coordinates": [278.62, 749.87],
             "type": "Port",
-            "image": "Port2-min.png",
+            "image": "Port2.png",
             "books": [
                 "The Mauritius Command",
                 "The Fortune of War"
@@ -418,7 +418,7 @@ const DATA_MARKERS = {
             "title": "Rodriguez Island",
             "coordinates": [334.75, 919.37],
             "type": "Port",
-            "image": "Port3-min.png",
+            "image": "Port3.png",
             "books": [
                 "The Mauritius Command",
             ],
@@ -432,7 +432,7 @@ const DATA_MARKERS = {
             "title": "Praya Port",
             "coordinates": [446.25, 590.31],
             "type": "Port",
-            "image": "Port5-min.png",
+            "image": "Port5.png",
             "books": [
                 "Desolation Island",
             ],
@@ -446,7 +446,7 @@ const DATA_MARKERS = {
             "title": "Recife",
             "coordinates": [371.56, 550.75],
             "type": "Port",
-            "image": "Port1-min.png",
+            "image": "Port1.png",
             "books": [
                 "Desolation Island",
             ],
@@ -460,7 +460,7 @@ const DATA_MARKERS = {
             "title": "San Salvador",
             "coordinates": [357.37, 537.50],
             "type": "Port",
-            "image": "Port4-min.png",
+            "image": "Port4.png",
             "books": [
                 "The Fortune of War",
             ],
@@ -474,7 +474,7 @@ const DATA_MARKERS = {
             "title": "Río de Janeiro",
             "coordinates": [324.12, 523.50],
             "type": "Port",
-            "image": "Port2-min.png",
+            "image": "Port2.png",
             "books": [
                 "HMS Surprise",
             ],
@@ -488,7 +488,7 @@ const DATA_MARKERS = {
             "title": "Bombay",
             "coordinates": [459.43, 953.68],
             "type": "Port",
-            "image": "Port2-min.png",
+            "image": "Port2.png",
             "books": [
                 "HMS Surprise",
             ],
@@ -502,7 +502,7 @@ const DATA_MARKERS = {
             "title": "Calcutta",
             "coordinates": [475.12, 1011.25],
             "type": "Port",
-            "image": "Port3-min.png",
+            "image": "Port3.png",
             "books": [
                 "HMS Surprise",
             ],
@@ -516,7 +516,7 @@ const DATA_MARKERS = {
             "title": "Botany Bay",
             "coordinates": [282.75, 1245.87],
             "type": "Port",
-            "image": "Port4-min.png",
+            "image": "Port4.png",
             "books": [
                 "The Fortune of War",
             ],
@@ -530,7 +530,7 @@ const DATA_MARKERS = {
             "title": "Port Jackson",
             "coordinates": [285.12, 1248.75],
             "type": "Port",
-            "image": "Port5-min.png",
+            "image": "Port5.png",
             "books": [
                 "The Fortune of War",
             ],
@@ -544,7 +544,7 @@ const DATA_MARKERS = {
             "title": "Boston",
             "coordinates": [554.62, 413.87],
             "type": "Port",
-            "image": "Port2-min.png",
+            "image": "Port2.png",
             "books": [
                 "The Fortune of War",
                 "The Surgeon´s Mate",
@@ -559,7 +559,7 @@ const DATA_MARKERS = {
             "title": "Halifax",
             "coordinates": [564.75, 440.37],
             "type": "Port",
-            "image": "Port3-min.png",
+            "image": "Port3.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -573,7 +573,7 @@ const DATA_MARKERS = {
             "title": "Gothenburg",
             "coordinates": [630.31, 726.43],
             "type": "Port",
-            "image": "Port5-min.png",
+            "image": "Port5.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -587,7 +587,7 @@ const DATA_MARKERS = {
             "title": "Carlscrona",
             "coordinates": [623.43, 739.56],
             "type": "Port",
-            "image": "Port4-min.png",
+            "image": "Port4.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -633,7 +633,7 @@ const DATA_MARKERS = {
             "title": "HMS Leopard vs. Waakzaamheid",
             "coordinates": [272.81, 635.00],
             "type": "Ship Battle",
-            "image": "Fighting10-min.png",
+            "image": "Fighting10.png",
             "books": [
                 "Desolation Island",
             ],
@@ -647,7 +647,7 @@ const DATA_MARKERS = {
             "title": "HMS Shannon vs. US Chesapeake",
             "coordinates": [554.93, 419.18],
             "type": "Ship Battle",
-            "image": "Fighting4-min.png",
+            "image": "Fighting4.png",
             "books": [
                 "The Surgeon´s Mate",
             ],
@@ -665,7 +665,7 @@ const DATA_MARKERS = {
             "title": "Sinking in Desolation Island",
             "coordinates": [212.12, 943.62],
             "type": "Sinking",
-            "image": "Sinking2-min.png",
+            "image": "Sinking2.png",
             "books": [
                 "Desolation Island",
                 "The Fortune of War",
@@ -680,7 +680,7 @@ const DATA_MARKERS = {
             "title": "Sinking by fire",
             "coordinates": [337.25, 615.75],
             "type": "Sinking",
-            "image": "Sinking3-min.png",
+            "image": "Sinking3.png",
             "books": [
                 "The Fortune of War",
             ],

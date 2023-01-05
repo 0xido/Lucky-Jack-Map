@@ -15,7 +15,6 @@
         stroke-width: 2.5;
       }
     
-    
     /* Leaflet override */
     .leaflet-tooltip {
         padding: 8px 12px;
@@ -76,7 +75,16 @@
 	/* ESTILIZADO */
     
     .tooltip-resize {
-		display: none;
+        margin-right: 1rem;
+    }
+    .tooltip-resize img {
+        filter: invert(100%) sepia(94%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(106%);
+        opacity: 0.5;
+        transition: opacity .4s;
+    }
+    
+    .tooltip-resize img:hover {
+        opacity: 1;
     }
     
     .tooltip-content {
