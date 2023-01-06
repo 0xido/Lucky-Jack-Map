@@ -10,7 +10,7 @@ const PATH_WEIGHT = 1.5;
 let map = L.map('map', {
     crs: L.CRS.Simple,
     attributionControl: false,
-    zoom: 1,
+    zoom: 0,
     minZoom: 1,
     maxZoom: 3,
     zoomControl: false,
