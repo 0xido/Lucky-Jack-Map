@@ -96,7 +96,7 @@ const DATA_PATHS = {
         // Escort duty
         {
             "book": "Master & Commander",
-            "pathName": "Master & Commander <br/>Escort Duty",
+            "pathName": "Escort Duty<br/>Master & Commander",
             "color": "#49679B",
             "isConfirmed": true,
             "coordinates": [
