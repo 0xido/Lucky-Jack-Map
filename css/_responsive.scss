@@ -27,7 +27,7 @@
 }
 
 @media (min-width: 992px) {
-    .border-outer {
+    .borderOld-outer {
         height: 94%;
     }
     .corner-ribbon {
@@ -73,9 +73,9 @@
     /* INTRO */
     .bg-map {
         .bg-overlay {
-            .border-outer {
-                .border-mid {
-                    .border-inner {
+            .borderOld-outer {
+                .borderOld-mid {
+                    .borderOld-inner {
                         h1 {
                             font-size: 3.2rem;
                         }

@@ -93,8 +93,8 @@ a {
   opacity: 0.2;
 }
 
-/* BUTTONS BORDERS */
-.border {
+/* BUTTONS borderS */
+.borderOld {
   width: 48px;
   height: 48px;
   padding: 4px;
@@ -103,10 +103,10 @@ a {
   cursor: pointer;
   transition: all 0.8s;
 }
-.border:hover {
+.borderOld:hover {
   background-color: rgb(236, 239, 244);
 }
-.border .border-inner {
+.borderOld .borderOld-inner {
   position: relative;
   display: block;
   width: 100%;
@@ -199,21 +199,21 @@ a {
   font-size: 24px;
 }
 
-.intro .border-outer {
+.intro .borderOld-outer {
   border: 2px solid rgb(68, 60, 42);
   height: 99%;
   width: 98%;
   padding: 6px;
   margin: 0 auto;
 }
-.intro .border-outer .border-mid {
+.intro .borderOld-outer .borderOld-mid {
   border: 6px solid rgb(68, 60, 42);
   height: 100%;
   width: 100%;
   padding: 6px;
   margin: auto;
 }
-.intro .border-outer .border-mid .border-inner {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -223,72 +223,72 @@ a {
   width: 100%;
   margin: auto;
 }
-.intro .border-outer .border-mid .border-inner .corner-ribbon {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon {
   position: absolute;
   width: 6%;
   margin: 0;
 }
-.intro .border-outer .border-mid .border-inner .corner-ribbon.corner-left-top {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon.corner-left-top {
   left: 0;
   top: 0;
 }
-.intro .border-outer .border-mid .border-inner .corner-ribbon.corner-right-top {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon.corner-right-top {
   top: 0;
   right: 0;
   transform: scaleX(-1);
 }
-.intro .border-outer .border-mid .border-inner .corner-ribbon.corner-right-bottom {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon.corner-right-bottom {
   right: 0;
   bottom: 0;
   transform: scale(-1);
 }
-.intro .border-outer .border-mid .border-inner .corner-ribbon.corner-left-bottom {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon.corner-left-bottom {
   left: 0;
   bottom: 0;
   transform: scaleY(-1);
 }
-.intro .border-outer .border-mid .border-inner .straight-ribbon {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .straight-ribbon {
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
   width: 11em;
 }
-.intro .border-outer .border-mid .border-inner .straight-ribbon.top {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .straight-ribbon.top {
   width: 30%;
   top: -16%;
 }
-.intro .border-outer .border-mid .border-inner .straight-ribbon.bottom {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner .straight-ribbon.bottom {
   width: 25%;
   bottom: -14%;
 }
-.intro .border-outer .border-mid .border-inner h1 {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
 }
-.intro .border-outer .border-mid .border-inner h2 {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner h2 {
   margin-bottom: 2rem;
   font-family: "PlayfairDisplay-Regular";
   font-size: 1.6rem;
   color: rgb(89, 89, 89);
 }
-.intro .border-outer .border-mid .border-inner a {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a {
   width: 200px;
   margin: 0 auto;
   font-size: 1.4rem;
   color: rgb(68, 60, 42);
   text-decoration: underline;
 }
-.intro .border-outer .border-mid .border-inner a .compass-animation {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a .compass-animation {
   display: block;
 }
-.intro .border-outer .border-mid .border-inner a .compass-animation .core {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a .compass-animation .core {
   fill: rgb(68, 60, 42);
 }
-.intro .border-outer .border-mid .border-inner a .compass-animation .needle {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a .compass-animation .needle {
   fill: rgb(68, 60, 42);
 }
-.intro .border-outer .border-mid .border-inner a .compass-animation .circle {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a .compass-animation .circle {
   fill: rgb(68, 60, 42);
 }
 @-webkit-keyframes rotatingPointer {
@@ -341,7 +341,7 @@ a {
             animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
   }
 }
-.intro .border-outer .border-mid .border-inner a:hover .compass-animation .pointer {
+.intro .borderOld-outer .borderOld-mid .borderOld-inner a:hover .compass-animation .pointer {
   -webkit-animation: rotatingPointer 2880ms infinite;
           animation: rotatingPointer 2880ms infinite;
   transform-origin: 50% 50%;
@@ -578,12 +578,12 @@ a {
   height: 40px;
   background-color: transparent;
 }
-.on .menu .border-inner .hamburger {
+.on .menu .borderOld-inner .hamburger {
   width: 28px;
   height: 28px;
   background-color: transparent;
 }
-.on .menu .border-inner .hamburger .btn-menu {
+.on .menu .borderOld-inner .hamburger .btn-menu {
   width: 28px;
   height: 28px;
   background-image: url(../img/icons/Close.svg);
@@ -612,7 +612,7 @@ a {
   z-index: 9000;
   opacity: 1;
 }
-.main__button .border .i-navigate-close {
+.main__button .borderOld .i-navigate-close {
   display: block;
   width: 36px;
   height: 36px;
@@ -702,12 +702,12 @@ a {
   display: block;
   float: right;
 }
-.sidebar--hidden .sidebar .close__button .border {
+.sidebar--hidden .sidebar .close__button .borderOld {
   width: 40px;
   height: 40px;
   background-color: transparent;
 }
-.sidebar--hidden .sidebar .close__button .border .border-inner .i-navigate-close {
+.sidebar--hidden .sidebar .close__button .borderOld .borderOld-inner .i-navigate-close {
   display: block;
   width: 28px;
   height: 28px;
@@ -830,7 +830,7 @@ a {
 
 /* Main */
 #map {
-  background-image: url(../img/resources/paper-bg-map.jpg);
+  background-image: url("../img/resources/paper-bg-map.jpg");
   height: 100vh;
 }
 
@@ -1092,7 +1092,7 @@ a {
 }
 
 @media (min-width: 992px) {
-    .border-outer {
+    .borderOld-outer {
         height: 94%;
     }
     .corner-ribbon {
@@ -1135,18 +1135,18 @@ a {
 /* TAMAÑO MAC 13" */
 @media (min-width: 1200px) and (max-width: 1440px) {
   /* INTRO */
-  .bg-map .bg-overlay .border-outer .border-mid .border-inner h1 {
+  .bg-map .bg-overlay .borderOld-outer .borderOld-mid .borderOld-inner h1 {
     font-size: 3.2rem;
   }
-  .bg-map .bg-overlay .border-outer .border-mid .border-inner .corner-ribbon {
+  .bg-map .bg-overlay .borderOld-outer .borderOld-mid .borderOld-inner .corner-ribbon {
     width: 8%;
     margin: 0;
   }
-  .bg-map .bg-overlay .border-outer .border-mid .border-inner .straight-ribbon.top {
+  .bg-map .bg-overlay .borderOld-outer .borderOld-mid .borderOld-inner .straight-ribbon.top {
     width: 32%;
     top: -21%;
   }
-  .bg-map .bg-overlay .border-outer .border-mid .border-inner .straight-ribbon.bottom {
+  .bg-map .bg-overlay .borderOld-outer .borderOld-mid .borderOld-inner .straight-ribbon.bottom {
     width: 25%;
     bottom: -16%;
   }

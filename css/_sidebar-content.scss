@@ -19,7 +19,7 @@
     left: 2rem;
     z-index: 9000;
     opacity: 1;
-    .border {
+    .borderOld {
         .i-navigate-close {
             display: block;
             width: 36px;
@@ -108,11 +108,11 @@
         .close__button {
             display: block;
             float: right;
-            .border {
+            .borderOld {
                 width: 40px;
                 height: 40px;
                 background-color: transparent;
-                .border-inner {
+                .borderOld-inner {
                     .i-navigate-close {
                         display: block;
                         width: 28px;

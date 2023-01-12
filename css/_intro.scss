@@ -2,19 +2,19 @@
 
 
 .intro {
-        .border-outer {
+        .borderOld-outer {
             border: 2px solid $color-brown;
             height: 99%;
             width: 98%;
             padding: 6px;
             margin: 0 auto;
-            .border-mid {
+            .borderOld-mid {
                 border: 6px solid $color-brown;
                 height: 100%;
                 width: 100%;
                 padding: 6px;
                 margin: auto;
-                .border-inner {
+                .borderOld-inner {
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
