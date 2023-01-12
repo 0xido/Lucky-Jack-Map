@@ -47,7 +47,7 @@ html, body {
   font-family: "PlayfairDisplay-Regular", Arial, sans-serif;
   overflow: hidden;
   background: radial-gradient(#003, #000);
-  cursor: url(../img/cursor.svg) 1 3, url(../img/cursor.png) 1 3, auto;
+  cursor: url("../img/cursor.svg") 1 3, url("../img/cursor.png") 1 3, auto;
 }
 
 h1, h2 {
