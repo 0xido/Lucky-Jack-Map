@@ -80,47 +80,50 @@
                         margin: 0 auto;
                         font-size: 1.4rem;
                         color: $color-brown;
+                        text-decoration: underline;
+                        .compass-animation {
+                            display: block;
+                            .core {fill: $color-brown;}
+                            .needle {fill: $color-brown;}  
+                            .circle {fill: $color-brown;}
+                        }
+                        &:hover {
+                            .compass-animation {
+                                @keyframes rotatingPointer {
+                                    0% {
+                                        transform: rotate(0deg);
+                                    }
+                                    25% {
+                                        transform: rotate(45deg);
+                                        animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
+                                    }
+                                    50% {
+                                        transform: rotate(90deg);
+                                        animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
+                                    }
+                                    75% {
+                                        transform: rotate(135deg);
+                                        animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
+                                    }
+                                    100% {
+                                        transform: rotate(0deg);
+                                        animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
+                                    }
+                                    
+                                }
+                                .pointer {
+                                    animation: rotatingPointer 2880ms infinite;
+                                    transform-origin: 50% 50%;
+                                    animation-timing-function: cubic-bezier(0.68, 0, 0.265, 2);
+                                }
+                            }
+                        }
                     }
                 }
             }  
         }
     }
-/* ANIMACIÓN BRÚJULA */
-.compass-animation {
-    display: block;
-    .core {fill: $color-brown;}
-    .needle {fill: $color-brown;}  
-    .circle {fill: $color-brown;}
-    &:hover {
-        @keyframes rotatingPointer {
-            0% {
-                transform: rotate(0deg);
-            }
-            25% {
-                transform: rotate(45deg);
-                animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
-            }
-            50% {
-                transform: rotate(90deg);
-                animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
-            }
-            75% {
-                transform: rotate(135deg);
-                animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
-            }
-            100% {
-                transform: rotate(0deg);
-                animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
-            }
-            
-        }
-        .pointer {
-            animation: rotatingPointer 2880ms infinite;
-            transform-origin: 50% 50%;
-            animation-timing-function: cubic-bezier(0.68, 0, 0.265, 2);
-        }
-    }
-}
+
 
 
 

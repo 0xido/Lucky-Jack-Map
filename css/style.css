@@ -277,19 +277,18 @@ a {
   margin: 0 auto;
   font-size: 1.4rem;
   color: rgb(68, 60, 42);
+  text-decoration: underline;
 }
-
-/* ANIMACIÓN BRÚJULA */
-.compass-animation {
+.intro .border-outer .border-mid .border-inner a .compass-animation {
   display: block;
 }
-.compass-animation .core {
+.intro .border-outer .border-mid .border-inner a .compass-animation .core {
   fill: rgb(68, 60, 42);
 }
-.compass-animation .needle {
+.intro .border-outer .border-mid .border-inner a .compass-animation .needle {
   fill: rgb(68, 60, 42);
 }
-.compass-animation .circle {
+.intro .border-outer .border-mid .border-inner a .compass-animation .circle {
   fill: rgb(68, 60, 42);
 }
 @-webkit-keyframes rotatingPointer {
@@ -342,7 +341,7 @@ a {
             animation-timing-function: cubic-bezier(0.3, 0.5, 0.58, 1);
   }
 }
-.compass-animation:hover .pointer {
+.intro .border-outer .border-mid .border-inner a:hover .compass-animation .pointer {
   -webkit-animation: rotatingPointer 2880ms infinite;
           animation: rotatingPointer 2880ms infinite;
   transform-origin: 50% 50%;
@@ -366,7 +365,7 @@ a {
   width: 280px;
   height: 122px;
   text-align: center;
-  background: url(../img/resources/ribbons/Logo-ribbon.svg) center no-repeat;
+  background: url("../img/resources/ribbons/Logo-ribbon.svg") center no-repeat;
   background-size: 268px;
 }
 .site-header .logo h1, .site-footer .logo h1 {
