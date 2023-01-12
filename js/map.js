@@ -16,6 +16,8 @@ let map = L.map('map', {
     zoomControl: false,
 });
 
+
+
 // Set zoom panel to the top left
 L.control.zoom({
     position: 'bottomright'
@@ -225,4 +227,3 @@ map.on(L.Draw.Event.CREATED, function (e) {
     console.log(output);
  });
 
- 
