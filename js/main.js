@@ -1,7 +1,3 @@
-
-
-
-
 // Overlay menu & Abrir filtros - Integrar con la funcion de arriba
 $(document).ready(function () {
     $('.menu-overlay').click(function() {
