@@ -16,10 +16,12 @@ let map = L.map('map', {
     zoomControl: false,
 });
 
+
 // Set zoom panel to the top left
 L.control.zoom({
     position: 'bottomright'
 }).addTo(map);
+
 
 // Show coordinates
 let c = new L.Control.Coordinates();
@@ -27,6 +29,7 @@ c.addTo(map);
 map.on('click', function(e) {
 	c.setCoordinates(e);
 });
+
 
 // Draw options for measure distance feature
 var drawPluginOptions = {
@@ -49,6 +52,7 @@ var drawPluginOptions = {
 var drawControl = new L.Control.Draw(drawPluginOptions);
 map.addControl(drawControl);
 L.Draw.Polyline.prototype._onTouch = L.Util.falseFn; // Fix for touchscreen
+
 
 // Set the custom map
 let bounds = [[0,0], [1000,1366]];
@@ -81,7 +85,6 @@ const listBooks = [
     'The Final Unfinished Voyage of Jack Aubrey or 21',
     
 ];
-
 
 
 // Markers & Paths
@@ -118,16 +121,9 @@ function setMarker() {
     });
 }
 
+
 // Set markers on the map 
 setMarker();
-
-
-
-
-
-
-
-
 
 
 /*
@@ -138,6 +134,7 @@ setMarker();
 function togglePathCheckbox(element) {
     setPath(element.name);
 }
+
 
 /*
  * Function that draw or remove a path from the map
@@ -162,6 +159,7 @@ function setPath(element) {
     setMarker();
 }
 
+
 /*
  * Function that refresh all polylines drawn on the map
 */
@@ -178,8 +176,8 @@ function refreshTimelinePaths() {
     });
     LIST_MAKERS = [];
     setMarker();
-    
 }
+
 
 /*
  * Function that returns every polyline of a book
@@ -204,14 +202,14 @@ function getPolylinesFromName(bookName) {
 
     return layerArray;
 }
+
+
 // Ocultar elementos vacíos de los popups
 const emptyElements = document.querySelectorAll(".empty");
 emptyElements.forEach(element => {
   element.style.display = "none";
 });
   
-
-
 
 // Dev, show paths on console when drawing on the map
 // Hace falta pulsar en finalizar la linea para verlo en console
