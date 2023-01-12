@@ -48,6 +48,15 @@ a {
 }
 
 
+/* CLEARFIX */
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /* DISABLED CLASS */
 .still-disabled {
@@ -55,7 +64,7 @@ a {
 }
 
 
-/* BUTTONS borderS */ 
+/* BUTTONS BORDERS */ 
 .borderOld {
     width: 48px;
     height: 48px;
@@ -74,13 +83,11 @@ a {
         height: 100%;
         padding: 0;
         border: 1px solid $color-gold;
-        
     }
 } 
 
 
-
-/* BACKGROUND MAP & PAPER */
+/* BODY WITH BACKGROUND MAP & PAPER */
 .bg-map {
     position: relative;
     width: 100vw;
@@ -114,19 +121,6 @@ a {
         }
     }
 }
-
-
-
-/* CLEARFIX */
-.clearfix {
-    overflow: auto;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /* LINK SEE MORE */
 .see-more {
     display: block;
@@ -144,9 +138,8 @@ a {
       color: $color-dark;
       transition: all .6s;
     }
-  }
-
-/* HR STYLIZED */
+}
+/* HR */
 .hr-style {
     border-top: 6px double $color-dark;
     text-align: center;

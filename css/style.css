@@ -88,12 +88,23 @@ a {
   background: rgb(68, 60, 42);
 }
 
+/* CLEARFIX */
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* DISABLED CLASS */
 .still-disabled {
   opacity: 0.2;
 }
 
-/* BUTTONS borderS */
+/* BUTTONS BORDERS */
 .borderOld {
   width: 48px;
   height: 48px;
@@ -115,7 +126,7 @@ a {
   border: 1px solid rgb(212, 175, 55);
 }
 
-/* BACKGROUND MAP & PAPER */
+/* BODY WITH BACKGROUND MAP & PAPER */
 .bg-map {
   position: relative;
   width: 100vw;
@@ -150,17 +161,6 @@ a {
   background-image: url("../img/resources/paper-256x256.jpg");
 }
 
-/* CLEARFIX */
-.clearfix {
-  overflow: auto;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /* LINK SEE MORE */
 .see-more {
   display: block;
@@ -182,7 +182,7 @@ a {
   transition: all 0.6s;
 }
 
-/* HR STYLIZED */
+/* HR */
 .hr-style {
   border-top: 6px double rgb(34, 34, 34);
   text-align: center;
