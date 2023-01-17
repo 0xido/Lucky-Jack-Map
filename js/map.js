@@ -12,7 +12,7 @@ let map = L.map('map', {
     attributionControl: false,
     zoom: 0,
     minZoom: 1,
-    maxZoom: 3,
+    maxZoom: 4,
     zoomControl: false,
 });
 
