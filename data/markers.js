@@ -137,7 +137,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },*/
@@ -154,7 +154,7 @@ const DATA_MARKERS = {
             ],
             "description": "",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -172,7 +172,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -190,7 +190,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },*/
@@ -206,7 +206,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -237,7 +237,7 @@ const DATA_MARKERS = {
                 "Master & Commander",
             ],
             "description": "The Algeciras campaign (sometimes known as the Battle or Battles of Algeciras) was an attempt by a French naval squadron from Toulon under Contre-Admiral Charles Linois to join a French and Spanish fleet at Cadiz during June and July 1801 during the French Revolutionary Wars prior to a planned operation against either Egypt or Portugal.",
-            "quote": ' "Not yet" ',
+            "quote": '',
             "readMoreUrl": "https://en.wikipedia.org/wiki/Algeciras_campaign",
             "isConfirmed": true
         },
@@ -269,7 +269,7 @@ const DATA_MARKERS = {
                 "The Surgeon´s Mate",
             ],
             "description": "Paris in the 18th century was the second-largest city in Europe, after London, with a population of about 600,000 people. The century saw the construction of Place Vendôme, the Place de la Concorde, the Champs-Élysées, the church of Les Invalides, and the Panthéon, and the founding of the Louvre Museum.",
-            "quote": ' "Not yet" ',
+            "quote": '',
             "readMoreUrl": "https://en.wikipedia.org/wiki/Paris_in_the_18th_century",
             "isConfirmed": true
         },
@@ -284,7 +284,7 @@ const DATA_MARKERS = {
             ],
             "description": "A camp set up by the Númenor army when they arrived in the middle-earth. It will later shelter the refugees from the Southlands.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },*/
@@ -303,7 +303,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -318,7 +318,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -332,7 +332,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -347,7 +347,7 @@ const DATA_MARKERS = {
             ],
             "description": "",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -361,7 +361,7 @@ const DATA_MARKERS = {
             ],
             "description": "A newly commisioned Master and Commander, Jack Aubrey takes command of the HMS Sophie in Port Mahón.",
             "quote": ' "Not teniente, cried Jack, crushing the breath out of her plump, supple body. Capitan! Capitano, ha, ha, ha!" ',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -388,7 +388,7 @@ const DATA_MARKERS = {
                 "Master & Commander",
             ],
             "description": "",
-            "quote": 'He had every reason to be pleased with himself he had taken his convoy to Cagliari without loss; he had brought up another to Leghorn (Liverno).',
+            "quote": '"He had every reason to be pleased with himself he had taken his convoy to Cagliari without loss; he had brought up another to Leghorn (Liverno)."',
             "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
@@ -402,7 +402,7 @@ const DATA_MARKERS = {
                 "Master & Commander",
             ],
             "description": "Orders from Admiral Keith",
-            "quote": 'We are to have a six week´s cruise down the French and Spanish coasts, as far as Cape Nao!.',
+            "quote": '"We are to have a six week´s cruise down the French and Spanish coasts, as far as Cape Nao!."',
             "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
@@ -417,7 +417,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -431,7 +431,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -446,7 +446,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -460,7 +460,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -474,7 +474,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -488,7 +488,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -502,7 +502,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -516,7 +516,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -530,7 +530,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -544,7 +544,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -558,7 +558,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -572,7 +572,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -587,7 +587,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -601,7 +601,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -615,7 +615,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -629,7 +629,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -647,7 +647,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -661,7 +661,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -675,7 +675,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -689,7 +689,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -722,7 +722,7 @@ const DATA_MARKERS = {
             ],
             "description": ' "It was well north of Capricorn that their fantastic luck with the wind deserted them. The south-east trades had had so little south in them that La Fleche was nearer Brazil than she had intended to be when they died away altogether, leaving her wallowing on a heavy swell under a sun so huge, so very near, and so furious that even at first dawn the metal of the guns was still quite hot." ',
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -741,7 +741,7 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -771,8 +771,8 @@ const DATA_MARKERS = {
                 "Master & Commander",
             ],
             "description": "Approximate location of Jack's first prize.",
-            "quote": '1/2 past 4 chase observed E by S, distance 1/2 mile. Bore up and took possession off, which proved to be L`Aimable Louise, French polacre laden with corn and general merchandise for Cette, of about 200 tons, 6 guns and 19 men. Sent her with an officer and eight men to Mahon.',
-            "readMoreUrl": "  ",
+            "quote": '"1/2 past 4 chase observed E by S, distance 1/2 mile. Bore up and took possession off, which proved to be L`Aimable Louise, French polacre laden with corn and general merchandise for Cette, of about 200 tons, 6 guns and 19 men. Sent her with an officer and eight men to Mahon."',
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
