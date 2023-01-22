@@ -41,18 +41,10 @@ const DATA_MARKERS = {
             "iconAnchor": [15, 15],
             "popupAnchor": [-5, -12]
         },
-        // SHIP BATTLE
-        {
-            "name": "Ship Battle",
-            "icon": "Ship-battle.svg",
-            "iconSize": [20, 20],
-            "iconAnchor": [15, 15],
-            "popupAnchor": [-5, -12]
-        },
         // PORT
         {
             "name": "Port",
-            "icon": "port.svg",
+            "icon": "Port.svg",
             "iconSize": [20, 20],
             "iconAnchor": [15, 15],
             "popupAnchor": [-5, -12]
@@ -116,6 +108,22 @@ const DATA_MARKERS = {
             "popupAnchor": [-5, -12]
         },
         // SHIPYARD
+        // SHIP BATTLE
+        {
+            "name": "Ship Battle",
+            "icon": "Ship-battle.svg",
+            "iconSize": [20, 20],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [-5, -12]
+        },
+        // PPREYS
+        {
+            "name": "Prey",
+            "icon": "prey.svg",
+            "iconSize": [20, 20],
+            "iconAnchor": [15, 15],
+            "popupAnchor": [-5, -12]
+        },
     ],
    "markers": [
         // BOOK STARTING POINT
@@ -365,9 +373,37 @@ const DATA_MARKERS = {
             "books": [
                 "Master & Commander",
             ],
-            "description": " ",
+            "description": "First convoy delivered to Cagliari.",
             "quote": ' ',
-            "readMoreUrl": "  ",
+            "readMoreUrl": "",
+            "dataProvidedUrl": "https://www.cannonade.net/index.php",
+            "isConfirmed": true
+        },
+        {
+            "title": "Leghorn (Livorno)",
+            "coordinates": [557.68, 720.25],
+            "type": "Port",
+            "image": "Port3.png",
+            "books": [
+                "Master & Commander",
+            ],
+            "description": "",
+            "quote": 'He had every reason to be pleased with himself he had taken his convoy to Cagliari without loss; he had brought up another to Leghorn (Liverno).',
+            "readMoreUrl": "",
+            "dataProvidedUrl": "https://www.cannonade.net/index.php",
+            "isConfirmed": true
+        },
+        {
+            "title": "Genoa",
+            "coordinates": [563.43, 715.18],
+            "type": "Port",
+            "image": "Port3.png",
+            "books": [
+                "Master & Commander",
+            ],
+            "description": "Orders from Admiral Keith",
+            "quote": 'We are to have a six week´s cruise down the French and Spanish coasts, as far as Cape Nao!.',
+            "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
@@ -659,7 +695,7 @@ const DATA_MARKERS = {
         },
 
 
-        
+
         // SINKINGS
         {
             "title": "Sinking in Desolation Island",
@@ -692,7 +728,8 @@ const DATA_MARKERS = {
         },
 
 
-         // BLOCKADES
+
+        // BLOCKADES
         {
             "title": "Blockade Tolon",
             "coordinates": [558.62, 704.37],
@@ -718,6 +755,23 @@ const DATA_MARKERS = {
             ],
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula libero, porttitor ut aliquet sit amet, tincidunt ut leo. Vivamus eget pharetra leo.",
             "quote": '',
+            "readMoreUrl": "",
+            "dataProvidedUrl": "https://www.cannonade.net/index.php",
+            "isConfirmed": true
+        },
+
+
+        // PREYS
+        {
+            "title": "L`Aimable Louise",
+            "coordinates": [556.81, 698.31],
+            "type": "Prey",
+            "image": "Fighting10.png",
+            "books": [
+                "Master & Commander",
+            ],
+            "description": "Approximate location of Jack's first prize.",
+            "quote": '1/2 past 4 chase observed E by S, distance 1/2 mile. Bore up and took possession off, which proved to be L`Aimable Louise, French polacre laden with corn and general merchandise for Cette, of about 200 tons, 6 guns and 19 men. Sent her with an officer and eight men to Mahon.',
             "readMoreUrl": "  ",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
