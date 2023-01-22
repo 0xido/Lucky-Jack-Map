@@ -401,7 +401,7 @@ const DATA_MARKERS = {
             "books": [
                 "Master & Commander",
             ],
-            "description": "Orders from Admiral Keith",
+            "description": "Orders from Admiral Keith.",
             "quote": '"We are to have a six week´s cruise down the French and Spanish coasts, as far as Cape Nao!."',
             "readMoreUrl": "",
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
