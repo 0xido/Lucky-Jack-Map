@@ -776,5 +776,19 @@ const DATA_MARKERS = {
             "dataProvidedUrl": "https://www.cannonade.net/index.php",
             "isConfirmed": true
         },
+        {
+            "title": "A Spanish Coaster",
+            "coordinates": [549.43, 689.12],
+            "type": "Prey",
+            "image": "Fighting8.png",
+            "books": [
+                "Master & Commander",
+            ],
+            "description": "",
+            "quote": '"The Sophie, to the astonishment of her people, had not headed for Barcelona after leaving Ciudadela, but west-north-west; and at daybreak, rounding Cape Salou within hail of the shore, she had picked up a richly-laden Spanish coaster of some two hundred tons, mounting (but not firing) six six-pounders - had picked her up from the landward side as neatly as though the rendezvous had been fixed weeks ahead and the Spanish captain had kept his hour to the minute."',
+            "readMoreUrl": "",
+            "dataProvidedUrl": "https://www.cannonade.net/index.php",
+            "isConfirmed": true
+        },
     ]
 }
